@@ -1,0 +1,463 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+
+html{
+  max-width: 1400px;
+}
+
+* {
+  /* box-sizing: border-box; */
+  font-family: "Raleway", "sans-serif";
+}
+
+body{
+  max-width: 1460px;
+  margin: 0 auto;
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: #0065fc;
+}
+
+body {
+  margin-left: 4%;
+}
+
+.header-nav a {
+  text-decoration: none;
+}
+
+.header-nav {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 60px;
+  margin-right: 22px;
+}
+
+Nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  padding: 48px 30px;
+  margin-top: auto;
+  border-top: 3px solid transparent;
+}
+
+nav a:hover {
+  border-top: 3px solid #0065fc;
+  color: #0065fc;
+}
+
+#logo {
+  margin-right: auto;
+  padding: 50px 20px 20px 10px;
+}
+
+#logo {
+  width: 120px;
+  height: auto;
+}
+
+#div h1 {
+  font-size: x-large;
+  margin-bottom: 0%;
+}
+
+#list-filtre h1 {
+  font-size: x-large;
+}
+
+#div p {
+  margin-top: 8px;
+}
+
+#barre-de-recherche {
+  display: flex;
+}
+
+.fa-solid.fa-location-dot {
+  padding: 17px;
+  background-color: #f2f2f2;
+  border-radius: 15px 0px 0px 15px;
+}
+
+#barre-de-recherche form input{
+  border: 1px solid #f2f2f2;
+  padding: 15px 55px 15px 5px;
+}
+
+#barre-de-recherche input::placeholder {
+  padding: 0px 0px 0px 15px;
+  color: black;
+  font-weight: bold;
+}
+
+.fa-solid.fa-magnifying-glass {
+  background-color: #0065fc;
+}
+
+#barre-de-recherche button {
+  background-color: #0065fc;
+  color: white;
+  border: 1px solid #f2f2f2;
+  cursor: pointer;
+}
+
+#barre-de-recherche form input{
+  margin-right: -30px;
+}
+
+.filtre span {
+  font-weight: bold;
+  padding: 15px;
+}
+
+.filtre {
+  border: 2px solid #f2f2f2;
+  border-radius: 25px;
+  margin: 0px 8px;
+}
+
+.list-filtre {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.list-filtre h1 {
+  font-size: medium;
+}
+
+.list-filtre i {
+  color: #0065fc;
+  background-color: #deebff;
+  padding: 15px;
+  border-radius: 50%;
+  margin: -2px;
+}
+
+.filtre > p {
+  color: #0065fc;
+  background-color: #deebff;
+  padding: 15px 17px;
+  border-radius: 50%;
+  margin: -2px;
+}
+
+.filtre:hover {
+  background-color: #f5f9ff;
+}
+
+.fa-solid.fa-info {
+  color: #0065fc;
+  border: 1px solid gray;
+  border-radius: 50%;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+#Info-sous-filtre {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.hebergements{
+  display: flex;
+  gap: 10px;
+}
+
+.hebergements > div{
+  border-radius: 15px;
+  background-color: #f2f2f2;
+}
+
+.marseille{
+  flex-basis: 66%;
+  margin-right: 1%;
+}
+
+.marseille > h3{
+  padding: 15px 0px 5px 31px;
+}
+
+.populaires{
+  flex-basis: 33%;
+  /* max-width: 380px; */
+  min-width: 380px;
+}
+
+.populaires h3{
+  padding: 15px 0px 5px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-des-hebegements{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+  gap: 10px;
+}
+
+.list-des-hebegements .auberge:hover{
+  background-color: #cbcbcb;
+}
+
+.list-plus-populaire .populaire:hover{
+  background-color: #cbcbcb;
+}
+
+.list-des-hebegements a{
+  flex-basis: 33%;
+}
+
+.bleu{
+  color: #0065fc;
+  font-size: small;
+}
+
+.gris{
+  color: #F2F2F2;
+  font-size: small;
+}
+
+.hebergements .auberge{
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 10px rgb(209, 209, 209);
+  margin-bottom: 2%;
+  min-width: 250px;
+  max-width: 250px;
+  padding: 0.5%;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+}
+
+.auberge img{
+  border-radius: 20px 20px 0px 0px;
+  height: 100px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.auberge h4{
+  margin: 5px;
+}
+
+.auberge p{
+  margin: 5px;
+}
+
+.Afficher-plus{
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 30px;
+  padding-left: 6%;
+  display: block;
+}
+
+.populaires .list-plus-populaire a{
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 10px rgb(209, 209, 209);
+  margin: 0px 8% 7% 7%;
+  padding: 1%;
+  height: 130px;
+  text-decoration: none;
+}
+
+.populaire img{
+  border-radius: 20px 0 0 20px;
+  width: 38%;
+  object-fit: cover;
+}
+
+.populaire-info{
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.populaire-info p{
+  margin: 0px 0px 30px 20px;
+}
+
+.populaire-info p{
+  margin-left: 20px;
+}
+
+.populaire-info > h4{
+  margin: 15px 0px 10px 20px;
+}
+
+.list-plus-populaire{
+  display: flex;
+  flex-direction: column;
+}
+
+.activités-a-marseille{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    gap: 10px;
+    max-width: 1300px;
+}
+
+.activités-a-marseille > div{
+  margin-left: auto;
+  margin-right: auto;
+}
+.activités-a-marseille .activités-simple:hover{
+  background-color: #cbcbcb;
+}
+
+.activités-a-marseille .fort-de-pomegues:hover{
+  background-color: #cbcbcb;
+}
+
+.activités-a-marseille .iles-du-fioul:hover{
+  background-color: #cbcbcb;
+}
+
+.activités-a-marseille .notre-dame-de-la-garde:hover{
+  background-color: #cbcbcb;
+}
+
+.activités-a-marseille .parc-longchamp:hover{
+  background-color: #cbcbcb;
+}
+
+.activités-a-marseille h4{
+  margin: 15px 0 15px 20px;
+}
+
+.titre-activités-a-marseille{
+  padding: 50px 0 20px 0px;
+}
+
+.activités-a-marseille .activités-simple{
+  border-radius: 25px;
+  box-shadow: 0 8px 10px rgb(241, 241, 241);
+  max-width: 300px;
+  min-width: 300px;
+  min-height: 400px;
+  flex-basis: 66%;
+  margin-right: auto;
+}
+
+.activités-double > a{
+  border-radius: 25px;
+  box-shadow: 0 8px 10px rgb(241, 241, 241);
+  margin-bottom: 50px;
+}
+
+.activités-simple img{
+  border-radius: 25px 25px 0px 0px;
+  max-width: 300px;
+  min-width: 300px;
+  min-height: 400px;
+  margin-right: 1%;
+  object-fit: cover;
+}
+
+.activités-a-marseille .activités-double{
+  max-width: 300px;
+  min-width: 300px;
+  flex-basis: 66%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* margin-right: 50px; */
+  height: 450px;
+}
+
+.activités-a-marseille a{
+  text-decoration: none;
+}
+
+.fort-de-pomegues{
+  height: 50%;
+}
+
+.fort-de-pomegues img{
+  height: 75%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.iles-du-fioul{
+  height: 40%;
+}
+  
+.iles-du-fioul img{
+  height: 70%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.notre-dame-de-la-garde{
+  height: 40%;
+}
+
+.notre-dame-de-la-garde img{
+  height: 70%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.parc-longchamp{
+  height: 50%;
+}
+
+.parc-longchamp img{
+  height: 75%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.parc-longchamp img{
+  height: 75%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 25px 25px 0px 0px;
+}
+
+footer{
+  background-color: #f2f2f2;
+  display: flex;
+  flex-wrap: wrap;
+  /* min: 1500px; */
+  max-width: 1500px;
+  margin-left: -70px;
+  margin-top: 70px;
+}
+
+footer > div{
+  width: 300px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+footer div{
+  padding-left: 110px;
+}
+
+footer p{
+  margin-bottom: -8px;
+}

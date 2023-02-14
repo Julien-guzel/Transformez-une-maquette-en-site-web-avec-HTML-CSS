@@ -1,0 +1,142 @@
+@media (min-width: 768px) {
+  .fa-solid.fa-magnifying-glass {
+    display: none;
+  }
+
+  #rechercher {
+    padding: 0px 20px;
+  }
+
+  #barre-de-recherche button {
+    background-color: #0065fc;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #f2f2f2;
+    border-radius: 0px 15px 15px 0px;
+    padding: 0px 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-nav {
+    flex-basis: 100%;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+    border-bottom: grey;
+    padding-right: 0%;
+  }
+
+  nav a:hover {
+    border-bottom: 3px solid #0065fc;
+    border-top: 3px solid transparent;
+  }
+
+  nav a {
+    padding: 10px 20px;
+    flex: 1;
+    border-bottom: 3px solid lightgray;
+  }
+
+  #logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #rechercher {
+    display: none;
+  }
+
+  #barre-de-recherche button {
+    border-radius: 15px;
+    padding: 15px;
+  }
+  
+  .hebergements .marseille{
+    background-color: white;
+  }
+
+  .hebergements .auberge{
+    min-width: 300px;
+    max-width: auto;
+  }
+  
+  .fort-de-pomegues{
+    min-height: 180px;
+    max-height: 180px;
+  }
+
+  .activités-double > a{
+    margin-bottom: 25px;
+  }
+
+  .iles-du-fioul{
+    max-height: 180px;
+    min-height: 180px;
+  }
+
+  .parc-longchamp{
+    min-height: 180px;
+    max-height: 180px;
+    margin-top: 10px;
+  }
+
+  .activités-a-marseille .activités-simple{
+    min-height: 180px;
+    max-height: 180px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .activités-a-marseille > div{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .activités-a-marseille .activités-double{
+    height: 400px;
+  }
+
+  .notre-dame-de-la-garde{
+    max-height: 180px;
+    min-height: 180px;
+  }
+
+  .activités-simple img{
+    min-height: 130px;
+    max-height: 130px;
+  }
+
+  footer{
+    flex-direction: column;
+    gap: 0px;
+    padding: 0px;
+    height: 450px;
+    justify-content: center;
+  }
+
+  footer div{
+    padding-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .titre-activités-a-marseille{
+    padding: 0px;
+  }
+}
+
+@media (max-width: 976px){
+  .populaires{
+    order: -1;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hebergements{
+    flex-direction: column;
+  }
+}
